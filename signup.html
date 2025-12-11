@@ -1,0 +1,23 @@
+<body>
+  <div id="nav"></div>
+
+  <h2>Signup</h2>
+
+  <form id="signupForm">
+    <input id="email" placeholder="Email"><br>
+    <input id="pass" placeholder="Password"><br>
+    <button>Signup</button>
+  </form>
+
+  <div id="foot"></div>
+
+  <script type="module">
+    import { navbar } from "./navbar.js";
+    import { footer } from "./footer.js";
+    import "./signup.js";
+
+    document.getElementById("nav").innerHTML = navbar();
+    document.getElementById("foot").innerHTML = footer();
+  </script>
+</body>
+

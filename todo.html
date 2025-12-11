@@ -1,0 +1,17 @@
+<body>
+  <div id="nav"></div>
+
+  <h2>Todo</h2>
+  <div id="todo"></div>
+
+  <div id="foot"></div>
+
+  <script type="module">
+    import { navbar } from "./navbar.js";
+    import { footer } from "./footer.js";
+       import "./todo.js";
+
+    document.getElementById("nav").innerHTML = navbar();
+    document.getElementById("foot").innerHTML = footer();
+  </script>
+</body>

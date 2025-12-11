@@ -1,0 +1,15 @@
+<body>
+  <div id="nav"></div>
+
+  <h1>Home Page</h1>
+
+  <div id="foot"></div>
+
+  <script type="module">
+    import { navbar } from "./navbar.js";
+    import { footer } from "./footer.js";
+
+    document.getElementById("nav").innerHTML = navbar();
+    document.getElementById("foot").innerHTML = footer();
+  </script>
+</body>
