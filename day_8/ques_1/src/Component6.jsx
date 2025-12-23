@@ -1,0 +1,7 @@
+import { useContext } from "react";
+import { AppContext } from "./AppContext";
+
+export default function Component6() {
+  const { e } = useContext(AppContext);
+  return <h4>This is prop e: {e}</h4>;
+}
